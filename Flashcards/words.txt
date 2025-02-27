@@ -1,16 +1,7 @@
 block: burokku
 walk: aruku
 yes: hai
-one: ichi
-two: ni
-three: san
-four: yon
-five: go
-six: roku
-seven: nana
-eight: hachi
-nine: kyuu
-ten: juu
+no: iie
 older brother: ani
 older sister: ane
 girlfriend: kanojo
@@ -45,4 +36,15 @@ to go: ikimasu
 to eat: tabemasu
 to use: tukaimasu
 to get off: orimasu
-
+toilet: toire
+washroom: otearai
+fun: tanoshi
+funny: omoshiroi
+kind: yasashi
+cheap: yasui
+expensive: takai
+elevator: erebeetaa
+stairs: kaidan
+money: okane
+cash: genkin
+picture: shashin
