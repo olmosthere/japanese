@@ -1,5 +1,12 @@
 You first please: osaki ni douzo
 If it's okay with you please tell me your name.: Yokattara onamae o oshiete kudasai
 How are you?: Ogenki desu ka?
-What do you recommend?: Osusume wa nan desuka?
-I like yellowtail: Watashi wa hamachi ga sukidesu
+What do you recommend?: Osusume wa nan desu ka?
+I like yellowtail: Watashi wa hamachi ga suki desu
+No thank you: kekkou desu
+How much is this?: Kono wa ikuramasu ka?
+Does this bus go downtown?: Kono basu wa dauntaun ni ikimasu ka?
+Would 1000 yen be okay? : San sen en de yoroshideshou ka?
+Do you have a restroom?: Otearai wa arimasu ka?
+Can you do (this) for me?: Moraemasu ka?
+Could you take a picture of us?: Watashitachi no shashin o totte moreamasu ka?
