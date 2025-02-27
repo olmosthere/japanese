@@ -1,0 +1,33 @@
+one: ichi
+two: ni
+three: san
+four: yon
+five: go
+six: roku
+seven: nana
+eight: hachi
+nine: kyuu
+ten: juu
+1 item: hitotsu
+2 items: futatsu
+3 items: mittsu
+4 items: yottsu
+5 items: itsutsu
+6 items: muttsu
+7 items: nanatsu
+8 items: yattsu
+9 items: kokonotsu
+10 items: too
+1 person: hitori
+2 people: futari
+3 people: sannin
+4 people: yonin
+5 people: gonin
+6 people: rokunin
+7 people: nananin
+8 people: hachinin
+9 people: kyuunin
+10 people: juunin
+One hundred: hyaku
+One thousand: sen
+Ten thousand: man
