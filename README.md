@@ -1,2 +1,2 @@
-# japanese
+# Japanese
 Apps for learning Japanese.
