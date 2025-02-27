@@ -1,0 +1,48 @@
+block: burokku
+walk: aruku
+yes: hai
+one: ichi
+two: ni
+three: san
+four: yon
+five: go
+six: roku
+seven: nana
+eight: hachi
+nine: kyuu
+ten: juu
+older brother: ani
+older sister: ane
+girlfriend: kanojo
+name: namae
+his: kare no
+her: kanojo no
+table: teburu
+right: migi
+left: hidari
+straight: massugu
+busy: nigiyaka
+quiet: shizuka
+or: soretomo
+airport: kuukou
+bus: basu
+train: densha
+train station: eki
+every morning: maiasa
+breakfast: asagohan
+lunch: hirugohan
+dinner: bangohan
+every night: maiban
+every day: mainichi
+every afternoon: mainichi gogo
+by myself: hitoride
+music: ongaku
+to listen: kikimasu
+to drink: nomimasu
+to see: mimasu
+to buy: kaimasu
+to go: ikimasu
+to eat: tabemasu
+to use: tukaimasu
+to get off: orimasu
+
