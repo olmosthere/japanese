@@ -48,3 +48,4 @@ stairs: kaidan
 money: okane
 cash: genkin
 picture: shashin
+product/souvenir: omiyage

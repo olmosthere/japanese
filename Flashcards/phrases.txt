@@ -10,3 +10,4 @@ Would 1000 yen be okay? : San sen en de yoroshideshou ka?
 Do you have a restroom?: Otearai wa arimasu ka?
 Can you do (this) for me?: Moraemasu ka?
 Could you take a picture of us?: Watashitachi no shashin o totte moreamasu ka?
+You're welcome: Dou itashimashite
