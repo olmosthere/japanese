@@ -48,3 +48,9 @@ stairs: kaidan
 money: okane
 cash: genkin
 picture: shashin
+product/souvenir: omiyage
+far: tooi
+close: chikai
+vending machine: jihanki
+exit: deguchi
+from: kara no

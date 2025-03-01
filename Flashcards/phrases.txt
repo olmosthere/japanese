@@ -11,3 +11,5 @@ Do you have a restroom?: Otearai wa arimasu ka?
 Can you do (this) for me?: Moraemasu ka?
 Could you take a picture of us?: Watashitachi no shashin o totte moreamasu ka?
 You're welcome: Dou itashimashite
+Please accept this souvenir from San Francisco: Sanfuranshisuko kara no omiyage o uketotte kudasai
+You're welcome: Dou itashimashite
