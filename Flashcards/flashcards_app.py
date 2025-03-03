@@ -6,6 +6,7 @@
 
 import random as rd
 import os
+import time
 
 
 # In[2]:
@@ -227,6 +228,8 @@ def train_dict(input_dict):
         rand_order = rd.sample(list(input_dict.keys()), len(input_dict))
     
         incorrect = []
+
+        start_time = time.time()
         
         for item in rand_order:
             
@@ -243,10 +246,27 @@ def train_dict(input_dict):
                 print("-----------")
                
         print()
+        end_time = time.time()
+        elapsed_seconds = int(end_time - start_time)
+        # Calculate hours, minutes, and seconds
+        hours, remainder = divmod(elapsed_seconds, 3600)  # 1 hour = 3600 seconds
+        mins, secs = divmod(remainder, 60)  # 1 minute = 60 seconds
+
+        time_parts = []
+        if hours:
+            time_parts.append(f"{hours} hrs")
+        if mins:
+            time_parts.append(f"{mins} mins")
+        time_parts.append(f"{secs} secs")
+
+        com_time = " ".join(time_parts)  # Join the parts into a single string
+        # Format output
+
         complete_title()
         print("**************************")
         print("Score: ", str(round((((len(input_dict) - len(incorrect))/len(input_dict)) * 100), 2))+"%", "(",
         len(input_dict) - len(incorrect), "/", len(input_dict), ")")
+        print("Completion Time: ", com_time)
         print("**************************")
         print()
     
