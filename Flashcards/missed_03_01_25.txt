@@ -1,0 +1,7 @@
+to use: tukaimasu
+close: chikai
+fun: tanoshi
+to drink: nomimasu
+quiet: shizuka
+his: kare no
+to get off: orimasu
