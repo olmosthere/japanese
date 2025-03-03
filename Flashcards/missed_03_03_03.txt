@@ -1,0 +1,3 @@
+straight: massugu
+to buy: kaimasu
+vending machine: jihanki
