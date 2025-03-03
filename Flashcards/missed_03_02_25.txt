@@ -1,0 +1,8 @@
+to use: tukaimasu
+lame: dasai
+close: chikai
+by myself: hitoride
+vending machine: jihanki
+straight: massugu
+right: migi
+or: soretomo

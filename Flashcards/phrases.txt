@@ -14,3 +14,5 @@ You're welcome: Dou itashimashite
 This is a chocolate souvenir from San Franisco: Kore wa Sanfuranshisuko no chokoreto no omiyage desu
 Please accept them: Dozo o uketori kudasai
 You're welcome: Dou itashimashite
+No, thank you: Kekkou desu
+I'm fine: Daijoubu desu
