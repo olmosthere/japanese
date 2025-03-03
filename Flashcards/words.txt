@@ -54,3 +54,5 @@ close: chikai
 vending machine: jihanki
 exit: deguchi
 from: kara no
+meal set: teishoku
+lame: dasai
