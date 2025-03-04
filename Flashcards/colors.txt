@@ -1,0 +1,11 @@
+green (adj): midori no
+blue (adj): aoi
+orange (adj): orenji no
+black (adj): kuroi
+red (adj): akai
+yellow (adj): kiiroi
+purple (adj): murasaki no
+brown (adj): chairo no
+gray (adj): haiiro no
+pink (adj): pinku no
+white (adj): shiroi

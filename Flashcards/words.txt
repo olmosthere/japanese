@@ -56,3 +56,14 @@ exit: deguchi
 from: kara no
 meal set: teishoku
 lame: dasai
+red (adj): akai
+blue (adj): aoi
+yellow (adj): kiiroi
+green (adj): midori no
+black (adj): kuroi
+white (adj): shiroi
+gray (adj): haiiro no
+brown (adj): chairo no
+purple (adj): murasaki no
+pink (adj): pinku no
+orange (adj): orenji no
