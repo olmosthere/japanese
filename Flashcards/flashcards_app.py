@@ -7,6 +7,7 @@
 import random as rd
 import os
 import time
+import pandas as pd
 
 
 # In[2]:
@@ -98,7 +99,18 @@ def excellent_title():
 
 # In[8]:
 
+records_df = pd.read_csv("recordbook.csv", names=["deck", "questions", "time_seconds", "time_str"])
 
+def print_records(df):
+    print("===============================")
+    print("         Record Book")
+    print("===============================")
+    for index, row in df.iterrows():
+        print("Deck: ", row['deck'])
+        print("    Questions: ", row['questions'])
+        print("    Record: ", row['time_str'])
+        print()
+        
 def validate_input_data(input_prompt: str, data_type: int, answer_range: list = None):
     error_flag = False
 
@@ -218,7 +230,7 @@ def select_deck():
 # In[1]:
 
 
-def train_dict(input_dict):
+def train_dict(input_dict, dict_name, rec_df):
     
     if len(input_dict) == 0:
         print("There are no cards in the current deck.  Add some!")
@@ -267,6 +279,22 @@ def train_dict(input_dict):
         print("Score: ", str(round((((len(input_dict) - len(incorrect))/len(input_dict)) * 100), 2))+"%", "(",
         len(input_dict) - len(incorrect), "/", len(input_dict), ")")
         print("Completion Time: ", com_time)
+        if (len(input_dict) - len(incorrect)) == len(input_dict):
+            if dict_name not in rec_df['deck'].unique():
+                print('***New Record!**')
+                new_rec = {'deck': dict_name, 'questions': len(input_dict),
+                           'time_seconds': elapsed_seconds, 'time_str': com_time}
+                # Add the new row using loc (next available index)
+                rec_df.loc[len(rec_df)] = new_rec
+                rec_df.to_csv('recordbook.csv', index= False, header= False)
+
+            elif elapsed_seconds < rec_df[rec_df['deck'] == dict_name]['time_seconds'].values[0]:
+                print('**New Record!**')
+                rec_df.loc[rec_df['deck'] == dict_name, 'questions'] = len(input_dict)
+                rec_df.loc[rec_df['deck'] == dict_name, 'time_seconds'] = elapsed_seconds
+                rec_df.loc[rec_df['deck'] == dict_name, 'time_str'] = com_time
+                rec_df.to_csv('recordbook.csv', index= False, header= False)
+
         print("**************************")
         print()
     
@@ -374,7 +402,7 @@ def remove_word(input_dict):
 title_message()
 values_dict, dict_file = select_deck()
 print()
-while int(selection) != 6:
+while int(selection) != 7:
     print("Selected Deck: ", dict_file)
     print()
     selection = validate_input_data("""Select an option:
@@ -384,14 +412,15 @@ while int(selection) != 6:
     3. Add Words
     4. Remove Words
     5. Change Deck
-    6. Exit
+    6. View Record Book
+    7. Exit
     
-    """, 1, [1,6])
+    """, 1, [1,7])
 
     print()
 
     ##Exit option
-    if selection == 6:
+    if selection == 7:
         save_option = input("Would you like to save the list? (Y/N): ")
         print()
         if save_option.lower() == "y" or save_option.lower() == "yes":
@@ -405,7 +434,7 @@ while int(selection) != 6:
 
     ##Train with the words
     elif selection == 1:
-        train_dict(values_dict)
+        train_dict(values_dict, dict_file, records_df)
 
     ##View the words
     elif selection == 2:
@@ -427,3 +456,5 @@ while int(selection) != 6:
             save_dict_to_txt(values_dict, dict_file)
         values_dict, dict_file = select_deck()
 
+    elif selection == 6:
+        print_records(records_df)
