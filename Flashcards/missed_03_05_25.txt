@@ -1,0 +1,6 @@
+exit: deguchi
+to drink: nomimasu
+kind: yasashi
+name: namae
+cheap: yasui
+meal set: teishoku
