@@ -1,6 +1,0 @@
-fun: tanoshi
-kind: yasashi
-left: hidari
-cash: genkin
-to use: tukaimasu
-by myself: hitoride
